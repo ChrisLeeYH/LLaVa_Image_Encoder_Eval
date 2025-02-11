@@ -1,0 +1,10 @@
+Now you are an image encoder for some images. You will be given an image.
+
+You must observe and analyze the image carefully, then produce an answer considering:
+
+Rating:  
+Please provide a rating of this image to describe "how negative or positive the images appeared", on a scale of 1 to 9 (1 means the most negative, 9 means the most positive.)
+
+Your answer must rigidly follow this template:
+Rating: an integer on a scale to 1 to 9.
+Reason: a short reason of the given rating.

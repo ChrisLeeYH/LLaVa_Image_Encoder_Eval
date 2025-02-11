@@ -1,0 +1,29 @@
+=======LLM task=======
+
+Context: Social scientists have increasingly used LLMs for content analysis. However, most studies have focused on text data. You will assess the performance of one open-sourced LLM (e.g., LLaVA) in analyzing a dataset about climate change images (https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00960/full). You will extract three key attributes from each image in the dataset:
+
+1.Valence
+
+2.Arousal
+
+3.Relevance (how related the image is to climate change)
+
+ 
+
+Your task involves:
+
+1.Designing prompts to measure these attributes (they should be similar to those used in the original study).
+
+2.Comparing LLM-generated scores against human perceptions. Calculating evaluation metrics appropriate for this task.
+
+3.Evaluating discrepancies between LLM and humans. Come up with some possible reasons for misalignment. 
+
+ 
+
+Deliverables:
+
+1.A work report detailing your methods, findings, and additional observations you find interesting.
+
+2.Python scripts used in the analysis.
+
+3.Data generated in the study.
