@@ -22,10 +22,11 @@ Input: input jsonl files.
 Output: output jsonl files.
 
 ## Analyze (./Eval)
+(update: ipynb files are converted to html files)
 1. parse_output.ipynb:
 parse the output files and extract the interesting strings.
 2. analysis.ipynb:
-astatistical and empirical analysis to evaluate the performance of LLaVa rating.
+a statistical and empirical analysis to evaluate the performance of LLaVa rating.
 
 ## Data (./Data)
 Contains all raw (link) and generated data.
