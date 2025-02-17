@@ -1,4 +1,4 @@
-# Summary of All Scripts and Analysis （Update Version: Feb 18th, 2025）
+# Summary of All Scripts and Analysis （Updated Version: Feb 18th, 2025）
 ## Run LLaVa-Image-Encoder (./src)
 1. make_input.py:
 Input: prompts files, images folders.
