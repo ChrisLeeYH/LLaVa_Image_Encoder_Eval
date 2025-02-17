@@ -16,6 +16,7 @@ def chat_with_llava(image_path, prompt):
                 'content': prompt,
                 'images': [image_path]
             }
-        ]
+        ],
+        options={'temperature': 0.3},  # Set temperature to 0.5 for more deterministic output
     )
     return res['message']['content']

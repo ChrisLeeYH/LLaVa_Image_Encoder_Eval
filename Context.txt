@@ -27,3 +27,22 @@ Deliverables:
 2.Python scripts used in the analysis.
 
 3.Data generated in the study.
+
+Addtional Analysis:
+1. Do you have the correlation, MAE, and MSE between human ratings and LLM-generated ratings? I’d like to see this computed for different scenarios:
+
+Human against one LLM rating
+
+...The average of two LLM ratings
+
+...The average of three LLM ratings
+
+… all the way up to ten LLM ratings
+
+ 
+
+2.LLaVA's Stability: You mentioned that LLaVA’s results are not stable. Have you looked into whether it has settings to control for randomness (e.g., temperature or other parameters)?
+
+ 
+
+3.Have you examined cases where LLaVA’s ratings diverge from human ratings? For example, cases where LLaVA assigns a high relevance rating, but human evaluators give a low score. Can you provide some specific examples and possible reasons for each image attribute where such discrepancies occur?
